@@ -1,0 +1,29 @@
+    
+header{
+    background-image: url("./images/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+li{
+    padding: 10px;
+    color: white;
+}
+ul{
+    
+    display: flex;
+    background-color: rgb(88, 125, 143);
+    list-style: none;
+    float: right;
+    /*padding: 0%;*/
+    margin: 0%;
+}
+/*#navigation{
+    float: right;
+    
+    background-color:rgb(88, 125, 143);
+    height: 50px;
+   
+}*/
