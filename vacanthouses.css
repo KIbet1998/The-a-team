@@ -5,6 +5,7 @@ header{
     background-position: center center;
     background-size: cover;
     height: 300px;
+    
 }
 
 li{
@@ -27,3 +28,26 @@ ul{
     height: 50px;
    
 }*/
+#heading{
+    text-align: center;
+    padding-top: 100px;
+    color: #b84427;
+    font-size: 1.7em;
+   
+}
+
+.search{
+    padding-top: 20px;
+    margin:auto;
+    width: 50%;
+    
+}
+
+.search #housesearch{
+    background-color:rgba(245, 181, 91, 1);
+    height: 25px;
+    
+    
+}
+    
+
