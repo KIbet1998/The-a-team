@@ -1,10 +1,10 @@
     
 header{
-    background-image: url("./images/header.jpg");
+    background-image: url("./images/header2.jpg");
    
     background-position: center center;
     background-size: 100% 100% ;
-    height: 300px;
+    height: 450px;
     
 }
 
@@ -71,6 +71,9 @@ ul{
     left: 140px;
     margin-top: 100px;
     border-radius: 35px;
+    box-sizing: border-box;
+
+   
 }
 /*#house2{
     background-color:  #C4C4C4;
@@ -81,3 +84,27 @@ ul{
     margin-top: 100px;
     border-radius: 35px;}
 */
+#variety{
+    height: 150px;
+    width: 150px;
+}
+#slides{
+    display: none;
+}
+
+.prev,
+.next{
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+    user-select: none;
+    
+}
+a.next{
+    right: 60%;
+}
+a.prev{
+    padding-left: 5px;
+}
