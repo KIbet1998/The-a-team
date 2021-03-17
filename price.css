@@ -1,4 +1,8 @@
-
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 header {
     background-image: url("./images/header2.jpg");
     background-position: center center;
@@ -15,7 +19,7 @@ ul {
     padding: 10px;
 
 
-    
+
 }
 li a {
    text-decoration: none;

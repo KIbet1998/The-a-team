@@ -1,4 +1,8 @@
-    
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+} 
 header{
     background-image: url("./images/home/header.jpg");
     background-position: center center;
