@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*var slide = 1;
 showSlides(slide);
 
@@ -20,5 +21,7 @@ function displaySlides (n){
     }
 f
 }*/
+=======
+>>>>>>> 1b81f9f686dd51cacf39813d6b7a2375c4e52abf
 
 
