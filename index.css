@@ -1,4 +1,8 @@
-    
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+} 
 header{
     background-image: url("./images/home/header.jpg");
     background-position: center center;
@@ -156,10 +160,14 @@ li{
 li a{
     text-decoration: none;
     color: white;
+    padding: 10px;
+    
 }
+
 ul{
     
     display: flex;
+    
     background-color:burlywood;
     list-style: none;
     float: right;
@@ -219,3 +227,11 @@ ul{
     padding-top: 50PX;
     border-radius: 35px;
 }
+
+nav a:hover{
+    background-color: skyblue;
+}
+ nav a.active{
+     background-color: #a72a2a;
+ }
+ 

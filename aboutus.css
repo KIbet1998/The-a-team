@@ -1,4 +1,4 @@
-nav {
+/*nav {
     background: burlywood;
     width: 100%;
     overflow: auto;
@@ -11,31 +11,68 @@ li{
 }
 *{
     box-sizing: border-box;
+}*/
+ li{
+     padding: 10px;
+     
+     
+ }
+
+ li a{
+     text-decoration: none;
+     color: white;
+     padding: 10px;
+    border: 5%;
+ }
+ ul{
+     display: flex;
+     background-color: burlywood;
+     list-style: none;
+    
+     margin: 0;
+     padding: 0;
+ }
+body{
+    background: url("makao-images/photo-1536376072261-38c75010e6c9.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header{
     margin: 0%;
     text-align: center;
-    background: url("makao-images/buildings-houses-condos-apartments.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+   
     height: 400px;
 }
 ul{
-    margin: 0%;
-    padding: 0%;
+    
     list-style: none;
 }
-nav a{
+#navigation{
+    margin: 0 auto 0;
+    padding-right:0 ;
+    float: right;
+    
+}
+nav a:hover{
+    background-color: skyblue;
+}
+
+li a.active{
+    background-color: #a72a2a; ;
+}
+
+/*nav a{
     width: 120px;
     /* display: block; */
-    text-decoration: none;
+   /* text-decoration: none;
     text-align: center;
     font-size: 16px;
     color: white;
     padding: 20px;
     display: inline;
     padding-top: 50px;
-}
+}*/
+
 .backGroundImage{
     padding-top: 100px;
     color: #a72a2a;
@@ -43,5 +80,11 @@ nav a{
 }
 .slogan{
     width: 50%;
+    height: 300px;
     margin: auto;
+    background-color: burlywood;
+    font-size: 2;
+    text-align: center;
+    padding: 50px ;
+    color: white;
 }

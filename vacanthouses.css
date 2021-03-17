@@ -1,4 +1,9 @@
 @media only screen and (min-width:100px){
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 header{
     background-image: url("./images/header2.jpg");
    
@@ -11,10 +16,19 @@ header{
 li{
     padding: 10px;
     color: white;
+   
 }
 li a{
     text-decoration: none;
     color: white;
+    
+    padding: 10px;
+    border: 5%;
+     
+     
+}
+nav{
+   
 }
 ul{
     
@@ -25,6 +39,17 @@ ul{
     
     /*padding: 0%;*/
     margin: 0%;
+   
+}
+nav a:hover{
+    background-color: skyblue;
+}
+nav a.active{
+    background-color: #a72a2a;
+}
+nav{
+   padding: 0;
+   margin: 0;
    
 }
 /*#navigation{
@@ -60,23 +85,25 @@ ul{
     position: relative;
     font-size: 1.3em;
     
-    
 }
-
+@media only screen and (min-width:100px){
 #house{
     background-color:  #C4C4C4;
     position: relative;
-    width: 80%;
+    
     max-width: auto;
     height: 300px;
     left: 100px;
     margin-top: 100px;
-    margin-right: 300px;
+    
     border-radius: 35px;
     box-sizing: border-box;
     display: flex;
-
-   
+    padding-right: 50px;
+    margin-left: 30px;
+    margin-right: 75px;
+    width: 1000px;
+}
 }
 
 #house button{
@@ -148,7 +175,7 @@ a.next:hover{
 .dots-container{
     display: flex;
     justify-content: left;
-    padding: 10px;
+    padding: 10px;git 
 }
 .dots-container .dot{
     cursor: pointer;
