@@ -1,4 +1,4 @@
-    
+@media only screen and (min-width:100px){
 header{
     background-image: url("./images/header2.jpg");
    
@@ -67,17 +67,33 @@ ul{
     background-color:  #C4C4C4;
     position: relative;
     width: 80%;
+    max-width: auto;
     height: 300px;
-    left: 140px;
+    left: 100px;
     margin-top: 100px;
+    margin-right: 300px;
     border-radius: 35px;
     box-sizing: border-box;
     display: flex;
 
    
 }
-#house img{
+
+#house button{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
    
+    background-color: #FC9925;
+    opacity: 0.6;
+    margin-top: 80px;
+    margin-right: 200px;
+}
+#house p{
+    width: 400px;
+   font-weight: 900 ;
+   font-size: 1.2em;
+   margin: 40px 50px 100px 50px;
 }
 /*#house2{
     background-color:  #C4C4C4;
@@ -93,7 +109,8 @@ ul{
     width: 200px;
     padding-left: 50px;
     padding-top: 50PX;
-    border-radius: 35px;
+}
+
 }
 /*#slides{
     display: flex;
