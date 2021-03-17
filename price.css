@@ -51,8 +51,16 @@ img{
     margin-left: 30px;
 }
 p{
-    transform: translate(500px, -150px);
+    transform: translate(400px, -150px);
+    
 }
+.price-list p{
+    margin-left: 150px;
+}
+.price-list{
+    width: 80%;
+}
+
 /*input{
     justify-content: center;
     align-items: center;
@@ -92,4 +100,7 @@ input{
 main{
     background-color: #c4c4c4;
     width: 100%;
+    
+    margin-top: 50px;
+    display: inline-block;
 }
