@@ -85,6 +85,13 @@ nav a{
     color: white;
     padding: 20%;
 }*/
+nav a:hover{
+    background-color: skyblue;
+}
+nav a.active{
+    background-color: #a72a2a;
+}
+
 input{
     background-color:#FC9925;
     height: 50px;
