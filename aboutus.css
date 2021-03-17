@@ -1,0 +1,47 @@
+nav {
+    background: burlywood;
+    width: 100%;
+    overflow: auto;
+    height: 50px;
+    padding-top: 20px;
+    overflow-y: hidden;
+} 
+li{
+    float: right;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    margin: 0%;
+    text-align: center;
+    background: url("makao-images/buildings-houses-condos-apartments.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+    height: 400px;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+nav a{
+    width: 120px;
+    /* display: block; */
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+    display: inline;
+    padding-top: 50px;
+}
+.backGroundImage{
+    padding-top: 100px;
+    color: #a72a2a;
+    font-size: 1.7em;
+}
+.slogan{
+    width: 50%;
+    margin: auto;
+}
