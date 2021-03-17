@@ -1,4 +1,4 @@
-/*var slide = 1;
+var slide = 1;
 showSlides(slide);
 
 function nextSlide(n){
@@ -19,6 +19,4 @@ function displaySlides (n){
         slidesshow[i].style.display = "none";
     }
 f
-}*/
-
-
+}
