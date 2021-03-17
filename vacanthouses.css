@@ -16,7 +16,6 @@ header{
 li{
     padding: 10px;
     color: white;
-   
 }
 li a{
     text-decoration: none;
@@ -27,9 +26,7 @@ li a{
      
      
 }
-nav{
-   
-}
+
 ul{
     
     display: flex;
@@ -81,10 +78,11 @@ nav{
     width: 60%;
     opacity: 0.6;
     border-radius: 25px;
-    border-color: white;
+    border-color:none;
     position: relative;
     font-size: 1.3em;
-    
+    outline: 0;
+    border: none;
 }
 @media only screen and (min-width:100px){
 #house{
@@ -110,7 +108,9 @@ nav{
     height: 50px;
     width: 100px;
     border-radius: 20px;
-   
+    outline: 0;
+    border: none;
+    border-color: white;
     background-color: #FC9925;
     opacity: 0.6;
     margin-top: 80px;
@@ -138,6 +138,22 @@ nav{
     padding-top: 50PX;
 }
 
+}
+
+#display{
+    
+    padding: 10px;
+    margin-top: 20px;
+}
+ #done{
+    background-color:  #C4C4C4;
+   
+    color: black;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    outline: 0;
+    border: none;
 }
 /*#slides{
     display: flex;
