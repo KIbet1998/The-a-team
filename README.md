@@ -8,7 +8,7 @@ Wanzuu
 
 
 ## Description
-This is a wesite that automates the business around dairy prodiction.
+This is a wesite that assist users in house hunting
 
 
 
