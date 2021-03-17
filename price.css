@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     background-image: ;
 }
@@ -38,4 +39,33 @@ input{
     padding: 10px;
     margin: 2%;
     background-color: #FC9925;
+=======
+nav {
+    background: burlywood;
+    width: 100%;
+    overflow: auto;
+} 
+li{
+    float: right;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background: red;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    padding: 20%;
 }
