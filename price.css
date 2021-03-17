@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-header{
-    background-image: ;
-}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -35,11 +33,11 @@ p{
 input{
     display: flexbox;
     justify-content: center;
-    align items: center;
+    align-items: center;
     padding: 10px;
     margin: 2%;
     background-color: #FC9925;
-=======
+}
 nav {
     background: burlywood;
     width: 100%;
