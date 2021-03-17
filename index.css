@@ -1,0 +1,134 @@
+    
+header{
+    background-image: url("./images/home/header.jpg");
+    background-position: center center;
+    background-size: 100% 100% ;
+    height: 700px;  
+}
+
+.banner-images{
+    background-color:  #FC9925;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 35px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 25px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+}
+.imageOne{
+    background-image: url('./images/home/bg-imageOne.jpeg');
+    background-size: cover;
+    width: 300px;
+    margin: 40px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+.imageTwo{
+    background-image: url('./images/home/bg-imageOne.jpeg');
+    background-size: cover;
+    width:300px;
+    margin: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+.imageThree{
+    background-image: url('./images/home/bg-imageOne.jpeg');
+    background-size: cover;
+    width :300px;
+    margin: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.content-message{
+
+
+}
+.email{
+
+}
+
+
+
+li{
+    padding: 10px;
+    color: white;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    
+    display: flex;
+    background-color:burlywood;
+    list-style: none;
+    float: right;
+    
+    /*padding: 0%;*/
+    margin: 0%;
+   
+}
+
+#heading{
+    text-align: center;
+    padding-top: 100px;
+    color: #a72a2a;
+   
+    font-size: 1.7em;
+    
+}
+
+.search{
+    padding-top: 50px;
+    margin:auto;
+    width: 50%;
+    
+}
+
+.search #housesearch{
+    background-color:#FC9925;
+    height: 50px;
+    width: 60%;
+    opacity: 0.6;
+    border-radius: 25px;
+    border-color: white;
+    position: relative;
+    font-size: 1.3em;
+    
+    
+}
+
+#house{
+    background-color:  #C4C4C4;
+    position: relative;
+    width: 80%;
+    height: 300px;
+    left: 140px;
+    margin-top: 100px;
+    border-radius: 35px;
+    box-sizing: border-box;
+    display: flex;
+
+   
+}
+
+#variety{
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 50PX;
+    border-radius: 35px;
+}
