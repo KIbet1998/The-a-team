@@ -76,6 +76,9 @@ ul{
 
    
 }
+#house img{
+   
+}
 /*#house2{
     background-color:  #C4C4C4;
     
@@ -90,6 +93,7 @@ ul{
     width: 200px;
     padding-left: 50px;
     padding-top: 50PX;
+    border-radius: 35px;
 }
 /*#slides{
     display: flex;
