@@ -72,6 +72,7 @@ ul{
     margin-top: 100px;
     border-radius: 35px;
     box-sizing: border-box;
+    display: flex;
 
    
 }
@@ -85,10 +86,19 @@ ul{
     border-radius: 35px;}
 */
 #variety{
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 50PX;
 }
-#slides{
+/*#slides{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+}
+ 
+x.slider{
     display: none;
 }
 
@@ -96,15 +106,35 @@ ul{
 .next{
     cursor: pointer;
     position: absolute;
-    color: white;
+    color:white;
     font-size: 20px;
-    padding: 50px;
+   
     user-select: none;
     
 }
 a.next{
-    right: 60%;
+    right: 40%;
+    padding-top: 80px;
 }
 a.prev{
+    padding-top: 80px;
     padding-left: 5px;
 }
+a.prev:hover,
+a.next:hover{
+    background-color: black;
+}
+.dots-container{
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+.dots-container .dot{
+    cursor: pointer;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    color: #333;
+    border-radius: 50%;
+    background-color: cadetblue;
+}*/
