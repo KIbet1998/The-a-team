@@ -23,10 +23,25 @@
         <h1>VACANT HOUSES</h1>
     </div>       
     </header>
-    <main>
-        <div class="search">
-            <input id="housesearch" type="text" placeholder="Search Vacant Houses">
-        </div>
+
+    <div class="search">
+        <input id="housesearch" type="button" value="Search Vacant Houses" onclick="search()">
+        <button id="done" onclick="reload()">Done</button>
+        <div id="display"></div>
+    </div>
+    <h2 id="featured">Featured Houses</h2>
+    <div id="house">
+        
+       <img id="variety" src="./images/house3img1.jpg" >
+       
+      
+       <img  id="variety" src="./images/house3img2.jpg" >
+
+       <p>4 Bedroom apartments in Kitsuru<br> Ksh 120,000<br>
+       <button type="button" onclick="contact()">Contact Owner</button></p>
+    </div>
+     
+    <div id="house">
         
         <div id="house">
             
@@ -56,10 +71,21 @@
             <img  id="variety" src="./images/house2img2.jpg" >
         <p>Furnished own compound, 3 bedroom apartments in Kileleshwa<br> on rent for 200,000 per month <button type="button">Contact Owner</button></p>
         
-        </div>
-    </main>
+       
+        <img  id="variety" src="./images/house1img2.webp" >
+        <p>Spacious two bedroom at Kasarani Ksh 15,000 per month<br> <button type="button" onclick="kasa()">Contact Owner</button></p>    
+    </div>
 
+     <div id="house">
+        
+        <img id="variety" src="./images/house2img1.jpeg" >
+        
+       
+        <img  id="variety" src="./images/house2img2.jpg" >
+    <p>Furnished own compound, 3 bedroom apartments in Kileleshwa<br> on rent for 200,000 per month <button type="button" onclick="kile()">Contact Owner</button></p>
     
+    </div>
+
     <footer class="footer">
         <div class="footer-left">
             <h1>Makao Solutions</h1>
@@ -76,7 +102,7 @@
         <div class="footer-bottom">
             <p>All Rights Reserved by &copy; Makao Solutions 2021</p>
         </div>
-    </footer> 
+    </footer>    
 </body>
 <script src="vacanthouses.js" ></script>
 

@@ -33,7 +33,7 @@ li a {
     padding: 0;
     
  }
-h1 {
+header h1 {
     margin-top: 0;
     text-align: center;
     align-items: center;
@@ -50,11 +50,8 @@ img{
     padding: 20px;
     margin-left: 30px;
 }
-p{
-    transform: translate(400px, -150px);
-    
-}
 .price-list p{
+    transform: translate(400px, -150px);
     margin-left: 150px;
 }
 .price-list{
@@ -113,10 +110,13 @@ main{
 }
 
 
+<<<<<<< HEAD
 
 /* css for footer */
 
 
+=======
+>>>>>>> 88725fcad16536a40b6079897907c6b26d1d9f84
 .footer{
     display: -webkit-flex;
     display: -moz-flex;
@@ -127,6 +127,10 @@ main{
     padding: 50px;
     color: #011c39;
     background-color: rgba(252, 153, 37, 0.5) ;
+<<<<<<< HEAD
+=======
+    margin-top: 50px;
+>>>>>>> 88725fcad16536a40b6079897907c6b26d1d9f84
 }
 
 .footer > *{

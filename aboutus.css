@@ -89,12 +89,15 @@ li a.active{
     color: white;
 }
 
+<<<<<<< HEAD
 
 
 
 /* CSS FOR FOOTER */
 
 
+=======
+>>>>>>> 88725fcad16536a40b6079897907c6b26d1d9f84
 .footer{
     display: -webkit-flex;
     display: -moz-flex;
@@ -105,6 +108,10 @@ li a.active{
     padding: 50px;
     color: #011c39;
     background-color: rgba(252, 153, 37, 0.5) ;
+<<<<<<< HEAD
+=======
+    margin-top: 50px;
+>>>>>>> 88725fcad16536a40b6079897907c6b26d1d9f84
 }
 
 .footer > *{
@@ -185,4 +192,9 @@ footer li{
     main{
         font-size: 55px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 88725fcad16536a40b6079897907c6b26d1d9f84
