@@ -106,8 +106,8 @@ li a.active{
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
-    color: #011c39;
-    background-color: rgba(252, 153, 37, 0.5) ;
+    color: white;
+    background-color: #011c39 ;
 
 
     margin-top: 50px;

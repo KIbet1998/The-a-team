@@ -53,12 +53,13 @@ function search(){
         vacancies.innerHTML += "<strong>The available vacant houses in</strong> "+allVacants[i].area + " <strong>are</strong> " +allVacants[i].houses +"<br>"
         
     }
-    document.getElementById ("housesearch") .addEventListener("click", clickFn, {once: true})
+    document.getElementById("housesearch").disabled = true;
 }
 
 
 function reload(){
     var y = document.getElementById("display");
     y.style.display="none";
-
+    
+    location.reload();
 }
