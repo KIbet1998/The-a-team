@@ -1,4 +1,8 @@
-    
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+} 
 header{
     background-image: url("./images/home/header.jpg");
     background-position: center center;
@@ -27,6 +31,9 @@ header{
     text-align: center;
     
 }
+.mwanzo{
+    background-color: rgba(255, 255, 0, 0.4);
+}
 
 .imageTwo{
     background-image: url('./images/home/bg-imageOne.jpeg');
@@ -53,8 +60,8 @@ header{
     display: flex;
     flex-flow: row wrap;
     padding: 50px;
-    color: #fff;
-    background-color: #011c39;
+    color: #011c39;
+    background-color: rgba(252, 153, 37, 0.5) ;
 }
 
 .footer > *{
@@ -80,10 +87,62 @@ h2{
 footer li{
     line-height: 2em;
 }
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
 
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box a{
+    color: #999;
+}
+.footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+.socials a{
+    background: #364a62;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+@media screen and (min-width:600px){
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex: 1 0px;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+}
 
-
-
+@media(max-width: 600px){
+    .footer{
+        padding: 15px;
+    }
+    main{
+        font-size: 55px;
+    }
+}
 
 
 
@@ -104,10 +163,14 @@ li{
 li a{
     text-decoration: none;
     color: white;
+    padding: 10px;
+    
 }
+
 ul{
     
     display: flex;
+    
     background-color:burlywood;
     list-style: none;
     float: right;
@@ -126,7 +189,7 @@ ul{
     
 }
 
-.search{
+/* .search{
     padding-top: 50px;
     margin:auto;
     width: 50%;
@@ -144,7 +207,7 @@ ul{
     font-size: 1.3em;
     
     
-}
+} */
 
 #house{
     background-color:  #C4C4C4;
@@ -159,11 +222,78 @@ ul{
 
    
 }
-
+/* 
 #variety{
     height: 200px;
     width: 200px;
     padding-left: 50px;
     padding-top: 50PX;
     border-radius: 35px;
+} */
+
+nav a:hover{
+    background-color: skyblue;
 }
+ nav a.active{
+     background-color: #a72a2a;
+ }
+ 
+
+
+
+ #housesearch{
+     width: 80%;
+     border: 2px solid #aaa;
+     border-radius: 4px;
+     margin:50px;
+     outline: none;
+     padding: 15px;
+     box-sizing: border-box;
+     transition: 3s;
+     text-align: center;
+ }
+ #housesearch:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+  }
+  
+
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 50.00% 50.00%;	
+    margin: 50px;
+  }
+  
+  
+  .box {
+          background-color: #444;
+          color: #fff;
+          padding: 1em;
+          height: 500px;
+  }
+  
+  * {
+      box-sizing: border-box;
+  }
+  #variety{
+      height: 450px;
+      width: 500px;
+      border-radius: 35px;
+      
+  }
+  .a {
+      background-color: rgba(252, 153, 37, 0.5);
+      height: 500px;
+      margin:35px;
+      border-radius: 35px;
+  }
+  .b {
+      background-color:rgba(252, 153, 37, 0.5);
+      height: 500px;
+      margin:35px;
+      border-radius: 35px;
+  }
+  
+  
+ 

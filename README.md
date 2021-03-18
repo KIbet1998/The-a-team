@@ -1,5 +1,6 @@
 #MAKAO SOLUTIONS
-## Author
+
+## Authors
 The A Team
 Ronald Rono
 Josphine Ndanu
@@ -15,11 +16,8 @@ Ndanu
 Odero
 Wanzuu
 
-
 ## Description
-This is a wesite that assist users in house hunting
-
-
+Its a website that helps solve the problem of house hunting in big towns
 
 ### Prerequisites
 You need to have git installed
@@ -31,6 +29,7 @@ Open your terminal
 Use this command to clone `https://github.com/KIbet1998/The-a-team`
 This will clone the repositoty into your local folder
 __Enjoy :)__
+
 ### Technologies Used
 HTML
 CSS
@@ -38,8 +37,6 @@ JavaScript
 Git
 ### Live Site
 View [live]()
-
-
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
