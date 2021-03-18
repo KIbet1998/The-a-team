@@ -1,4 +1,9 @@
 @media only screen and (min-width:100px){
+    body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 header{
     background-image: url("./images/header2.jpg");
    
@@ -15,7 +20,13 @@ li{
 li a{
     text-decoration: none;
     color: white;
+    
+    padding: 10px;
+    border: 5%;
+     
+     
 }
+
 ul{
     
     display: flex;
@@ -25,6 +36,17 @@ ul{
     
     /*padding: 0%;*/
     margin: 0%;
+   
+}
+nav a:hover{
+    background-color: skyblue;
+}
+nav a.active{
+    background-color: #a72a2a;
+}
+nav{
+   padding: 0;
+   margin: 0;
    
 }
 /*#navigation{
@@ -49,41 +71,52 @@ ul{
     width: 50%;
     
 }
-
+#featured{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.7em;
+    color: #a72a2a;
+}
 .search #housesearch{
     background-color:#FC9925;
     height: 50px;
     width: 60%;
     opacity: 0.6;
     border-radius: 25px;
-    border-color: white;
+    border-color:none;
     position: relative;
     font-size: 1.3em;
-    
-    
+    outline: 0;
+    border: none;
 }
-
+@media only screen and (min-width:100px){
 #house{
     background-color:  #C4C4C4;
     position: relative;
-    width: 80%;
+    
     max-width: auto;
     height: 300px;
     left: 100px;
-    margin-top: 100px;
-    margin-right: 300px;
+    margin-top: 50px;
+    
     border-radius: 35px;
     box-sizing: border-box;
     display: flex;
-
-   
+    padding-right: 50px;
+    margin-left: 120px;
+    margin-right: 75px;
+    width: 1000px;
+}
 }
 
 #house button{
     height: 50px;
     width: 100px;
     border-radius: 20px;
-   
+    outline: 0;
+    border: none;
+    border-color: white;
     background-color: #FC9925;
     opacity: 0.6;
     margin-top: 80px;
@@ -111,6 +144,115 @@ ul{
     padding-top: 50PX;
 }
 
+}
+
+#display{
+    
+    padding: 10px;
+    margin-top: 20px;
+}
+ #done{
+    background-color:  #C4C4C4;
+   
+    color: black;
+    height: 30px;
+    width: 80px;
+    border-radius: 10%;
+    outline: 0;
+    border: none;
+}
+
+.footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #011c39;
+    background-color: rgba(252, 153, 37, 0.5) ;
+    margin-top: 50px;
+}
+
+.footer > *{
+    flex: 1 100%
+}
+footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-left p{
+    font-weight: 600;
+}
+h2{
+    font-weight: 400;
+    font-size: 17px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box a{
+    color: #999;
+}
+.footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+.socials a{
+    background: #364a62;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+@media screen and (min-width:600px){
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex: 1 0px;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+}
+
+@media(max-width: 600px){
+    .footer{
+        padding: 15px;
+    }
+    main{
+        font-size: 55px;
+    }
 }
 /*#slides{
     display: flex;
@@ -148,7 +290,7 @@ a.next:hover{
 .dots-container{
     display: flex;
     justify-content: left;
-    padding: 10px;
+    padding: 10px;git 
 }
 .dots-container .dot{
     cursor: pointer;
@@ -159,3 +301,101 @@ a.next:hover{
     border-radius: 50%;
     background-color: cadetblue;
 }*/
+
+
+
+
+/* CSS for Footer */
+
+
+.footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -0-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #011c39;
+    background-color: rgba(252, 153, 37, 0.5) ;
+}
+
+.footer > *{
+    flex: 1 100%
+}
+footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-left p{
+    font-weight: 600;
+}
+h2{
+    font-weight: 400;
+    font-size: 17px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box a{
+    color: #999;
+}
+.footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+.socials a{
+    background: #364a62;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+@media screen and (min-width:600px){
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex: 1 0px;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+}
+
+@media(max-width: 600px){
+    .footer{
+        padding: 15px;
+    }
+    main{
+        font-size: 55px;
+    }
+}
