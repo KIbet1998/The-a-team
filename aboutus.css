@@ -34,6 +34,7 @@ body{
     background: url("makao-images/photo-1536376072261-38c75010e6c9.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
 }
 header{
     margin: 0%;
@@ -71,5 +72,6 @@ ul{
     font-size: 2;
     text-align: center;
     padding: 50px ;
-    color: white;
+    color: black;
+    
 }

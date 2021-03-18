@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #MAKAO SOLUTIONS
 ## Author
 The A Team
@@ -8,7 +7,6 @@ Odero Oluoch
 Carol Wanzuu
 ## Description
 Its a website that helps solve the problem of house hunting in big towns
-=======
 # Dairy Bussinness
 
 ## Author
@@ -23,12 +21,10 @@ This is a wesite that assist users in house hunting
 
 
 
->>>>>>> 65a332b2182297ff8077ee82e71d0d375764130a
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
 `$ sudo apt install git-all`
-<<<<<<< HEAD
 ### Setup
 To access this project on your local files, you can clone it using these steps
 Open your terminal
@@ -42,7 +38,6 @@ JavaScript
 Git
 ### Live Site
 View [live]()
-=======
 
 
 ### Setup
@@ -62,8 +57,5 @@ To access this project on your local files, you can clone it using these steps
 
 ### Live Site
 View [live](https://hamida-mstafa.github.io/fev-band/)
-
-
->>>>>>> 65a332b2182297ff8077ee82e71d0d375764130a
 ### Licence
 This project is under the  [MIT](LICENSE) licence
