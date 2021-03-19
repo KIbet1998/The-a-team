@@ -30,7 +30,7 @@ CSS
 JavaScript
 Git
 ### Live Site
-View [live]()
+View [live](https://kibet1998.github.io/The-a-team/)
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
